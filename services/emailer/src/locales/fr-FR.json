@@ -58,7 +58,7 @@
   "We would be grateful if you could proceed to the payment of {{amount}} very shortly.": "Nous vous serions reconnaissants de bien vouloir procéder au paiement de {{amount}} dans les plus brefs délais.",
   "We would be grateful if you could proceed to the payment of <strong>{{amount}}</strong> very shortly.": "Nous vous serions reconnaissants de bien vouloir procéder au paiement de <strong>{{amount}}</strong> dans les plus brefs délais.",
   "We would be grateful if you could proceed to the payment of your rent debts in the following 10 days, otherwise we will engage an eviction procedure.": "Nous vous serions reconnaissants de bien vouloir procéder au paiement de vos dettes de loyer dans les 10 jours qui suivent, faute de quoi nous engagerons une procédure d'expulsion.",
-  "We would like to point out that our business agreements with your company are stated in a contract signed {{date}}.": "Nous souhaitons vous rappeler que nos accords commerciaux avec votre entreprise sont consignés dans un contrat signé le {{date}}.",
+  "We would like to point out that our business agreements with your company are stated in a contract signed {{date}}.": "Nous souhaitons vous rappeler que les conditions de votre location sont définies dans le bail signé le {{date}}.",
   "We would like to point out that our business agreements with you are stated in a contract signed {{date}}.": "Nous souhaitons vous rappeler que nos accords commerciaux avec vous sont consignés dans un contrat signé le {{date}}.",
   "Write your check to the order of {{name}} and send it to the following address:": "Adressez votre chèque au nom de {{name}} et envoyez à l'adresse suivante :"
 }
