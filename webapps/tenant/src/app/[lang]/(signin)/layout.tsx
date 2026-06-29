@@ -18,7 +18,14 @@ export default async function SignInLayout({
         <div className="hidden lg:flex flex-col items-center justify-center space-y-20 text-center font-medium bg-sky-900 text-white/95 w-[36rem]">
           <div className="space-y-2">
             <div className="text-5xl">{getServerEnv('APP_NAME')}</div>
-            <div>{t('for tenants')}</div>
+            <div className="space-y-2">
+  <div className="logo-title">
+    <div>S.C.I</div>
+    <div>Bohort</div>
+    <div>de</div>
+    <div>Gaunes</div>
+  </div>
+</div>
           </div>
           <WelcomeIllustration />
         </div>
