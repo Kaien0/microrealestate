@@ -42,14 +42,27 @@ span.error {
   top: 10mm;
   left: 10mm;
 }
+
+@font-face {
+  font-family: "Papyrus";
+  src: url("../fonts/papyrus.ttf") format("truetype");
+}
+
+
 .logo h1 {
   display: inline-block;
   font-size: 18pt;
-  color: #330066;
+  color: #000;
+  font-family: "Papyrus", fantasy;
+  font-weight: bold;
 }
+
 .logo img {
   display: inline-block;
+  width: 32px;
+  height: auto;
 }
+
 .contact {
   border-top: 2pt solid #555;
   margin: 2pt 0 0 0;
