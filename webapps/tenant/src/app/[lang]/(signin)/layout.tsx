@@ -21,6 +21,7 @@ export default async function SignInLayout({
             <div className="space-y-2">
   <div className="logo-title">
     <div>S.C.I</div>
+    <br/>
     <div>Bohort</div>
     <div>de</div>
     <div>Gaunes</div>

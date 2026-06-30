@@ -256,10 +256,7 @@ services:
   ###############################################################################
   landlord-frontend:
     restart: unless-stopped
-    build:
-      context: /var/www/mre
-      dockerfile: webapps/tenant/Dockerfile
-    #image: 'ghcr.io/microrealestate/microrealestate/landlord-frontend:${MRE_VERSION:-latest}' 
+    image: 'ghcr.io/microrealestate/microrealestate/landlord-frontend:${MRE_VERSION:-latest}' 
     environment:
       BASE_PATH: /landlord
       PORT: 8180
@@ -280,7 +277,10 @@ services:
   ###############################################################################
   tenant-frontend:
     restart: unless-stopped
-    image: 'ghcr.io/microrealestate/microrealestate/tenant-frontend:${MRE_VERSION:-latest}'
+    build:
+      context: /var/www/mre
+      dockerfile: webapps/tenant/Dockerfile
+    #image: 'ghcr.io/microrealestate/microrealestate/tenant-frontend:${MRE_VERSION:-latest}'
     environment:
       BASE_PATH: /tenant
       PORT: 8190
