@@ -10,7 +10,7 @@ import { Roboto } from 'next/font/google';
 import { Toaster } from '@/components/ui/toaster';
 
 const APP_NAME = process.env.APP_NAME || 'MicroRealEstate';
-const APP_TITLE = APP_NAME ? [APP_NAME, 'Tenant'] : ['Tenant'];
+const APP_TITLE = ['SCI Bohort de Gaunes'];
 if (process.env.NODE_ENV === 'development') {
   APP_TITLE.push('DEV');
 } else if (process.env.DEMO_MODE === 'true') {
