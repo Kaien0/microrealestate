@@ -1,5 +1,5 @@
 {
-  "{{appName}} Sign in to the tenant portal": "{{appName}} Connectez-vous au portail locataire",
+  "{{appName}} Sign in to the tenant portal": "S.C.I Bohort de Gaunes : Connectez-vous au portail locataire",
   "So far, one or more rents have not been paid. The current amount of unpaid rents is {{amount}}.": "Jusqu'à présent, un ou plusieurs loyers n'ont pas été réglés. Le montant actuel des loyers impayés s'élève à {{amount}}.",
   "So far, one or more rents have not been paid. The current amount of unpaid rents is <strong>{{amount}}</strong>.": "Jusqu'à présent, un ou plusieurs loyers n'ont pas été réglés. Le montant actuel des loyers impayés s'élève à <strong>{{amount}}</strong>.",
   "Bank details": "Informations bancaires",
