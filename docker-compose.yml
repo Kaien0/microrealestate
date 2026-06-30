@@ -258,7 +258,7 @@ services:
     restart: unless-stopped
     build:
       context: /var/www/mre
-      dockerfile: wepapps/tenant/Dockerfile
+      dockerfile: webapps/tenant/Dockerfile
     #image: 'ghcr.io/microrealestate/microrealestate/landlord-frontend:${MRE_VERSION:-latest}' 
     environment:
       BASE_PATH: /landlord
