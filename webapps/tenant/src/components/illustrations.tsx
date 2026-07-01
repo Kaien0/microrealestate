@@ -24,8 +24,8 @@ export const WelcomeIllustration = () => {
   return (
     <div className="h-64 w-full">
       <Illustration
-        src="/tenant/logo.svg"
-        alt="Logo S.C.I Bohort de Gaunes"
+        src={`${getServerEnv('BASE_PATH')}/welcome.svg`}
+        alt="welcome"
       />
     </div>
   );
