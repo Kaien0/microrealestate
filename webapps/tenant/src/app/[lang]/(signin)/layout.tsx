@@ -16,7 +16,7 @@ export default async function SignInLayout({
       <EnvironmentBar className="bg-card shadow sticky top-0 z-40 w-full" />
 
       <div className="flex h-screen">
-        <div className="hidden lg:flex flex-col items-center justify-center space-y-10 text-center font-medium bg-sky-900 text-white/95 w-[36rem]">
+        <div className="hidden lg:flex flex-col items-center justify-center space-y-10 text-center font-medium bg-black text-white/95 w-[36rem]">
 
           {/* Illustration en haut */}
           <WelcomeIllustration />
