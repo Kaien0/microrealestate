@@ -24,7 +24,7 @@ export const WelcomeIllustration = () => {
   return (
     <div className="h-64 w-full">
       <Illustration
-        src={`${getServerEnv('BASE_PATH')}/welcome.svg`}
+        src={`${getServerEnv('BASE_PATH')}/logo.png`}
         alt="welcome"
       />
     </div>
